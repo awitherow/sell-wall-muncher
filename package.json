@@ -1,0 +1,22 @@
+{
+  "name": "sell-wall-eater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awitherow/sell-wall-muncher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awitherow/sell-wall-muncher/issues"
+  },
+  "homepage": "https://github.com/awitherow/sell-wall-muncher#readme",
+  "dependencies": {
+    "yobit": "0.0.1"
+  }
+}
