@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ENV=dev node index.js",
+    "start": "ENV=prod node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/awitherow/sell-wall-muncher#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "yobit": "0.0.1"
   }
 }
